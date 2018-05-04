@@ -1,0 +1,117 @@
+/*body{
+	width:1400px;
+	margin: auto;
+	margin-top: -25px;
+	background-image: url(../static/img/background03.jpg);
+	
+}*/
+h1{
+	margin-left: 110px;
+	margin-top: 40px;
+	height: 60px;
+	font-size: 80px;
+	font-family: dfkaiti-sb;
+	letter-spacing: 5px;
+	color: white;
+}
+
+
+h2{
+	margin-left: 80px;
+	margin-top: 40px;
+	height: 60px;
+	font-size: 50px;
+	font-family: dfkaiti-sb;
+	letter-spacing: 5px;
+	color: white;
+}
+
+h3{
+	margin:0 auto;
+	font-size: 30px;
+	border-bottom: 2px;
+	margin-left: 80px;
+	letter-spacing: 40px;
+	color: blue;
+}
+.wrap{
+	min-width:1400px;
+	width: 80%;
+	/*background:green;*/
+	margin: auto;
+}
+
+.wrap a{
+	font-size: 20px;
+	font-weight: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.manu{width:1400px; height:40px; margin:0 auto;margin-left: 0px;
+border-bottom: 5px solid white;}
+ ul{list-style:none;}
+ ul li{float:left; line-height:40px;  text-align:center;position:relative;}
+ a{ text-decoration:none;  display:block; width:200px;font-size: 30px;
+	font-weight: 20px;
+	text-decoration: none;
+	color: white;}
+ a:hover{  color:black;}
+  ul li ul li{ float:left;margin-top:2px; } 
+  ul li ul{width:200px; position:absolute;  display:none;}
+  ul li:hover ul{ display:block;}
+
+.content{
+	width: 1000px;
+	height: 500px;
+	margin-left: 50px;
+}
+
+.side{
+	float: right;
+	list-style: none;
+    width: 300px;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: -200px;
+	/*background:blue;*/
+}
+.side li{
+	text-decoration: none;
+}
+
+.login{
+	width: 280px;
+	height: 280px;
+	margin-left: 800px;
+	margin-top: 80px;
+	padding: 20px;
+	border: 10px solid #66cc99;
+	background-color: #ccccff;
+	font-size: 20px;
+}
+.signup{
+	width: 280px;
+	height: 350px;
+	margin-left: 800px;
+	margin-top: 50px;
+	padding: 20px;
+	border: 10px solid #66ccff;
+	background-color: #ffffff;
+	font-size: 20px;
+}
+.log{
+	width: 400px;
+	height: 400px;
+	margin-left: 80px;
+	margin-top: 0px;
+	/*padding: 20px;
+	/*border: 10px solid #66cc99;*/
+	/*background-color: #ccccff;*/
+	font-size: 30px;
+}
+.tupian
+{
+	position: relative;left :150px;top:20px;
+}
+	 

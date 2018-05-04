@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+     <head>
+        <title>社团管理平台</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../static/css/style.css">
+     </head>
+      <body style="background-image: url(../static/img/background03.jpg);width:1400px;
+      margin: auto;margin-top: -25px;">
+        <div class="wrap">
+            <h1>
+                {{title_words}}
+            </h1>
+           
+        </div>
+        <div class="manu">
+         <ul>
+                {% if isLogin == False %}
+		<li><a href="http://127.0.0.1:5000/sign_in"><strong>登录</a>   
+                </li>
+		{% else %}
+		<li><a href="http://127.0.0.1:5000"><strong>注销</a> 
+		</li> 
+		{% endif %}
+                 <li><a href="http://127.0.0.1:5000/profile"><strong>个人信息</a>
+                 </li>
+                <li><a href=""><strong>社团信息</a></li>
+                <li><a href=""><strong>社团管理</a>
+                     <ul>
+                        <li><a href="#">社团信息修改</a></li>
+                        <li><a href="#">活动信息发布</a></li>
+                    </ul> 
+                </li>
+                <li><a href="/templates/我的消息.html"><strong>我的消息</a></li>   
+            </ul>
+        </div>
+        <div class="content">
+                <p>
+                    This is my blog.
+                </p>
+                
+        </div>
+        <div class="side">
+                <h2>    
+                    Side
+                </h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="#">Content</a></li>
+                </ul>
+        </div>
+    
+     </body>
+</html>
