@@ -39,9 +39,7 @@ def profile():
     return render_template('个人信息.html')
 
 
-@app.route('/inquiry', methods=['GET'])
-def inquiry():
-    return render_template('信息查询.html')
+
 
 
 @app.route('/my_club', methods=['GET'])
